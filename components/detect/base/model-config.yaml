@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: detect-model-config
+data:
+  MODEL_ENDPOINT: "http://detect-model-server:8000"

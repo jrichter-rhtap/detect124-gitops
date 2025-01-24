@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: detect-database-config
+data:
+  VECTORDB_HOST: "detect-database"
+  VECTORDB_PORT: ""
